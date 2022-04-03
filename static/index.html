@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon" />
+    <title>Tarot API</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tarot API</h1>
+      <small
+        >by 🐙<a href="https://github.com/ekelen" target="_blank"
+          >ekelen</a
+        ></small
+      >
+    </header>
+    <main>
+      <h3>
+        REST API for card names, descriptions, and divinatory meanings according
+        to AE Waite's Pictorial Key to the Tarot (1910), the companion to the
+        Rider-Waite-Smith (RWS) deck upon which most newer decks are based.
+      </h3>
+      <ul>
+        <li>
+          ⭐️
+          <a href="https://github.com/ekelen/tarot-api">See the README</a> at
+          the repository root
+        </li>
+        <li>
+          ⭐️ See full documentation and try it out
+          <a
+            href="https://app.swaggerhub.com/apis/ekswagger/rws-tarot_card_api/1.0.0"
+            >on SwaggerHub!</a
+          >
+        </li>
+        <li>
+          ⭐️ Go to
+          <a href="./api/v1/">the root endpoint!</a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
+
+<style>
+  body {
+    font-family: Calibri, Helvetica, sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 20%);
+  }
+
+  a {
+    color: hsl(259, 100%, 64%);
+  }
+
+  a:visited {
+    color: hsl(259, 50%, 64%);
+  }
+
+  a:hover {
+    color: hsl(30, 100%, 61%);
+    transition: color 300ms linear;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: hsl(0, 0%, 20%);
+      color: hsl(0, 0%, 80%);
+    }
+
+    a:hover {
+      color: yellow;
+    }
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: Calibri, Futura, serif;
+    font-weight: 300;
+  }
+  header,
+  main {
+    width: 960px;
+    max-width: 95vw;
+    margin: 2rem auto;
+  }
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    line-height: 1.5;
+  }
+</style>
