@@ -7,7 +7,7 @@
     "start-dev": "npx nodemon exec babel-node app.js",
     "dev": "npm run start-dev",
     "validate": "node ./scripts/data_validate.js",
-    "start": "npx nodemon exec babel-node app.js",
+    "start": "NODE_ENV=production node dist/app.js",
     "build": "rm -rf ./dist && NODE_ENV=production ./node_modules/@babel/cli/bin/babel.js app.js -d dist"
   },
   "author": "ekelen",
@@ -23,10 +23,11 @@
     "lodash.clonedeep": "^4.5.0",
     "lodash.range": "^3.2.0",
     "lodash.remove": "^4.7.0",
-    "path": "^0.12.7",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
     "nodemon": "^1.19.4"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
