@@ -3,7 +3,7 @@
   "cards": [
     {
       "type": "major",
-      "name_short": "ar01",
+      "name_short": "the_magician",
       "name": "Маг",
       "value": "1",
       "value_int": 1,
@@ -13,7 +13,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar02",
+      "name_short": "the_high_priestess",
       "name": "Верховная Жрица",
       "value": "2",
       "value_int": 2,
@@ -23,7 +23,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar03",
+      "name_short": "the_empress",
       "name": "Императрица",
       "value": "3",
       "value_int": 3,
@@ -33,7 +33,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar04",
+      "name_short": "the_emperor",
       "name": "Император",
       "value": "4",
       "value_int": 4,
@@ -43,7 +43,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar05",
+      "name_short": "the_hierophant",
       "name": "Иерофант",
       "value": "5",
       "value_int": 5,
@@ -53,7 +53,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar06",
+      "name_short": "the_lovers",
       "name": "Влюблённые",
       "value": "6",
       "value_int": 6,
@@ -63,7 +63,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar07",
+      "name_short": "the_chariot",
       "name": "Колесница",
       "value": "7",
       "value_int": 7,
@@ -73,7 +73,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar08",
+      "name_short": "strength",
       "name": "Сила",
       "value": "8",
       "value_int": 8,
@@ -83,7 +83,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar09",
+      "name_short": "the_hermit",
       "name": "Отшельник",
       "value": "9",
       "value_int": 9,
@@ -93,7 +93,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar10",
+      "name_short": "wheel_of_fortune",
       "name": "Колесо Фортуны",
       "value": "10",
       "value_int": 10,
@@ -103,7 +103,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar11",
+      "name_short": "justice",
       "name": "Справедливость",
       "value": "11",
       "value_int": 11,
@@ -113,7 +113,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar12",
+      "name_short": "the_hanged_man",
       "name": "Повешенный",
       "value": "12",
       "value_int": 12,
@@ -123,7 +123,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar13",
+      "name_short": "death",
       "name": "Смерть",
       "value": "13",
       "value_int": 13,
@@ -133,7 +133,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar14",
+      "name_short": "temperance",
       "name": "Умеренность",
       "value": "14",
       "value_int": 14,
@@ -143,7 +143,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar15",
+      "name_short": "the_devil",
       "name": "Дьявол",
       "value": "15",
       "value_int": 15,
@@ -153,7 +153,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar16",
+      "name_short": "the_tower",
       "name": "Башня",
       "value": "16",
       "value_int": 16,
@@ -163,7 +163,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar17",
+      "name_short": "the_star",
       "name": "Звезда",
       "value": "17",
       "value_int": 17,
@@ -173,7 +173,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar18",
+      "name_short": "the_moon",
       "name": "Луна",
       "value": "18",
       "value_int": 18,
@@ -183,7 +183,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar19",
+      "name_short": "the_sun",
       "name": "Солнце",
       "value": "19",
       "value_int": 19,
@@ -193,7 +193,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar20",
+      "name_short": "judgement",
       "name": "Суд",
       "value": "20",
       "value_int": 20,
@@ -203,7 +203,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar00",
+      "name_short": "the_fool",
       "name": "Шут",
       "value": "0",
       "value_int": 0,
@@ -213,7 +213,7 @@
     },
     {
       "type": "major",
-      "name_short": "ar21",
+      "name_short": "the_world",
       "name": "Мир",
       "value": "21",
       "value_int": 21,
@@ -223,7 +223,7 @@
     },
     {
       "name": "Пaж Жeзлoв",
-      "name_short": "wapa",
+      "name_short": "page_of_wands",
       "value": "page",
       "value_int": 11,
       "suit": "wands",
@@ -234,7 +234,7 @@
     },
     {
       "name": "Рыцарь Жезлов",
-      "name_short": "wakn",
+      "name_short": "knight_of_wands",
       "value": "knight",
       "value_int": 12,
       "suit": "wands",
@@ -245,7 +245,7 @@
     },
     {
       "name": "Королева Жезлов",
-      "name_short": "waqu",
+      "name_short": "queen_of_wands",
       "value": "queen",
       "value_int": 13,
       "suit": "wands",
@@ -256,7 +256,7 @@
     },
     {
       "name": "Король Жезлов",
-      "name_short": "waki",
+      "name_short": "king_of_wands",
       "value": "king",
       "value_int": 14,
       "suit": "wands",
@@ -267,7 +267,7 @@
     },
     {
       "name": "Туз Жезлов",
-      "name_short": "waac",
+      "name_short": "ace_of_wands",
       "value": "ace",
       "value_int": 1,
       "suit": "wands",
@@ -278,7 +278,7 @@
     },
     {
       "name": "Двoйкa Жeзлoв",
-      "name_short": "wa02",
+      "name_short": "2_of_wands",
       "value": "two",
       "value_int": 2,
       "suit": "wands",
@@ -289,7 +289,7 @@
     },
     {
       "name": "Тройка Жезлов",
-      "name_short": "wa03",
+      "name_short": "3_of_wands",
       "value": "three",
       "value_int": 3,
       "suit": "wands",
@@ -300,7 +300,7 @@
     },
     {
       "name": "Четвёрка Жезлов",
-      "name_short": "wa04",
+      "name_short": "4_of_wands",
       "value": "four",
       "value_int": 4,
       "suit": "wands",
@@ -311,7 +311,7 @@
     },
     {
       "name": "Пятёрка Жезлов",
-      "name_short": "wa05",
+      "name_short": "5_of_wands",
       "value": "five",
       "value_int": 5,
       "suit": "wands",
@@ -321,7 +321,7 @@
     },
     {
       "name": "Шестёрка Жезлов",
-      "name_short": "wa06",
+      "name_short": "6_of_wands",
       "value": "six",
       "value_int": 6,
       "suit": "wands",
@@ -332,7 +332,7 @@
     },
     {
       "name": "Семёрка Жезлов",
-      "name_short": "wa07",
+      "name_short": "7_of_wands",
       "value": "seven",
       "value_int": 7,
       "suit": "wands",
@@ -343,7 +343,7 @@
     },
     {
       "name": "Восьмёрка Жезлов",
-      "name_short": "wa08",
+      "name_short": "8_of_wands",
       "value": "eight",
       "value_int": 8,
       "suit": "wands",
@@ -354,7 +354,7 @@
     },
     {
       "name": "Девятка Жезлов",
-      "name_short": "wa09",
+      "name_short": "9_of_wands",
       "value": "nine",
       "value_int": 9,
       "suit": "wands",
@@ -365,7 +365,7 @@
     },
     {
       "name": "Десятка Жезлов",
-      "name_short": "wa10",
+      "name_short": "10_of_wands",
       "value": "ten",
       "value_int": 10,
       "suit": "wands",
@@ -376,7 +376,7 @@
     },
     {
       "name": "Паж Кубков",
-      "name_short": "cupa",
+      "name_short": "page_of_cups",
       "value": "page",
       "value_int": 11,
       "suit": "cups",
@@ -387,7 +387,7 @@
     },
     {
       "name": "Рыцарь Кубков",
-      "name_short": "cukn",
+      "name_short": "knight_of_cups",
       "value": "knight",
       "value_int": 12,
       "suit": "cups",
@@ -398,7 +398,7 @@
     },
     {
       "name": "Королева Кубков",
-      "name_short": "cuqu",
+      "name_short": "queen_of_cups",
       "value": "queen",
       "value_int": 13,
       "suit": "cups",
@@ -409,7 +409,7 @@
     },
     {
       "name": "Король Кубков",
-      "name_short": "cuki",
+      "name_short": "king_of_cups",
       "value": "king",
       "value_int": 14,
       "suit": "cups",
@@ -420,7 +420,7 @@
     },
     {
       "name": "Туз Кубков",
-      "name_short": "cuac",
+      "name_short": "ace_of_cups",
       "value": "ace",
       "value_int": 1,
       "suit": "cups",
@@ -430,7 +430,7 @@
     },
     {
       "name": "Двойка Кубков",
-      "name_short": "cu02",
+      "name_short": "2_of_cups",
       "value": "two",
       "value_int": 2,
       "suit": "cups",
@@ -441,7 +441,7 @@
     },
     {
       "name": "Тройка Кубков",
-      "name_short": "cu03",
+      "name_short": "3_of_cups",
       "value": "three",
       "value_int": 3,
       "suit": "cups",
@@ -452,7 +452,7 @@
     },
     {
       "name": "Четвёрка Кубков",
-      "name_short": "cu04",
+      "name_short": "4_of_cups",
       "value": "four",
       "value_int": 4,
       "suit": "cups",
@@ -463,7 +463,7 @@
     },
     {
       "name": "Пятёрка Кубков",
-      "name_short": "cu05",
+      "name_short": "5_of_cups",
       "value": "five",
       "value_int": 5,
       "suit": "cups",
@@ -474,7 +474,7 @@
     },
     {
       "name": "Шестёрка Кубков",
-      "name_short": "cu06",
+      "name_short": "6_of_cups",
       "value": "six",
       "value_int": 6,
       "suit": "cups",
@@ -485,7 +485,7 @@
     },
     {
       "name": "Семёрка Кубков",
-      "name_short": "cu07",
+      "name_short": "7_of_cups",
       "value": "seven",
       "value_int": 7,
       "suit": "cups",
@@ -496,7 +496,7 @@
     },
     {
       "name": "Восьмёрка Кубков",
-      "name_short": "cu08",
+      "name_short": "8_of_cups",
       "value": "eight",
       "value_int": 8,
       "suit": "cups",
@@ -507,7 +507,7 @@
     },
     {
       "name": "Девятка Кубков",
-      "name_short": "cu09",
+      "name_short": "9_of_cups",
       "value": "nine",
       "value_int": 9,
       "suit": "cups",
@@ -518,7 +518,7 @@
     },
     {
       "name": "Десятка Кубков",
-      "name_short": "cu10",
+      "name_short": "10_of_cups",
       "value": "ten",
       "value_int": 10,
       "suit": "cups",
@@ -529,7 +529,7 @@
     },
     {
       "name": "Паж Пентаклей",
-      "name_short": "pepa",
+      "name_short": "page_of_pentacles",
       "value": "page",
       "value_int": 11,
       "suit": "pentacles",
@@ -540,7 +540,7 @@
     },
     {
       "name": "Рыцарь Пентаклей",
-      "name_short": "pekn",
+      "name_short": "knight_of_pentacles",
       "value": "knight",
       "value_int": 12,
       "suit": "pentacles",
@@ -551,7 +551,7 @@
     },
     {
       "name": "Королева Пентаклей",
-      "name_short": "pequ",
+      "name_short": "queen_of_pentacles",
       "value": "queen",
       "value_int": 13,
       "suit": "pentacles",
@@ -562,7 +562,7 @@
     },
     {
       "name": "Король Пентаклей",
-      "name_short": "peki",
+      "name_short": "king_of_pentacles",
       "value": "king",
       "value_int": 14,
       "suit": "pentacles",
@@ -573,7 +573,7 @@
     },
     {
       "name": "Туз Пентаклей",
-      "name_short": "peac",
+      "name_short": "ace_of_pentacles",
       "value": "ace",
       "value_int": 1,
       "suit": "pentacles",
@@ -584,7 +584,7 @@
     },
     {
       "name": "Двойка Пентаклей",
-      "name_short": "pe02",
+      "name_short": "2_of_pentacles",
       "value": "two",
       "value_int": 2,
       "suit": "pentacles",
@@ -595,7 +595,7 @@
     },
     {
       "name": "Тройка Пентаклей",
-      "name_short": "pe03",
+      "name_short": "3_of_pentacles",
       "value": "three",
       "value_int": 3,
       "suit": "pentacles",
@@ -606,7 +606,7 @@
     },
     {
       "name": "Четвёрка Пентаклей",
-      "name_short": "pe04",
+      "name_short": "4_of_pentacles",
       "value": "four",
       "value_int": 4,
       "suit": "pentacles",
@@ -617,7 +617,7 @@
     },
     {
       "name": "Пятёрка Пентаклей",
-      "name_short": "pe05",
+      "name_short": "5_of_pentacles",
       "value": "five",
       "value_int": 5,
       "suit": "pentacles",
@@ -628,7 +628,7 @@
     },
     {
       "name": "Шестёрка Пентаклей",
-      "name_short": "pe06",
+      "name_short": "6_of_pentacles",
       "value": "six",
       "value_int": 6,
       "suit": "pentacles",
@@ -639,7 +639,7 @@
     },
     {
       "name": "Семёрка Пентаклей",
-      "name_short": "pe07",
+      "name_short": "7_of_pentacles",
       "value": "seven",
       "value_int": 7,
       "suit": "pentacles",
@@ -650,7 +650,7 @@
     },
     {
       "name": "Восьмёрка Пентаклей",
-      "name_short": "pe08",
+      "name_short": "8_of_pentacles",
       "value": "eight",
       "value_int": 8,
       "suit": "pentacles",
@@ -661,7 +661,7 @@
     },
     {
       "name": "Девятка Пентаклей",
-      "name_short": "pe09",
+      "name_short": "9_of_pentacles",
       "value": "nine",
       "value_int": 9,
       "suit": "pentacles",
@@ -672,7 +672,7 @@
     },
     {
       "name": "Десятка Пентаклей",
-      "name_short": "pe10",
+      "name_short": "10_of_pentacles",
       "value": "ten",
       "value_int": 10,
       "suit": "pentacles",
@@ -683,7 +683,7 @@
     },
     {
       "name": "Паж Мечей",
-      "name_short": "swpa",
+      "name_short": "page_of_swords",
       "value": "page",
       "value_int": 11,
       "suit": "swords",
@@ -694,7 +694,7 @@
     },
     {
       "name": "Рыцарь Мечей",
-      "name_short": "swkn",
+      "name_short": "knight_of_swords",
       "value": "knight",
       "value_int": 12,
       "suit": "swords",
@@ -704,7 +704,7 @@
     },
     {
       "name": "Королева Мечей",
-      "name_short": "swqu",
+      "name_short": "queen_of_swords",
       "value": "queen",
       "value_int": 13,
       "suit": "swords",
@@ -715,7 +715,7 @@
     },
     {
       "name": "Король Мечей",
-      "name_short": "swki",
+      "name_short": "king_of_swords",
       "value": "king",
       "value_int": 14,
       "suit": "swords",
@@ -726,7 +726,7 @@
     },
     {
       "name": "Туз Мечей",
-      "name_short": "swac",
+      "name_short": "ace_of_swords",
       "value": "ace",
       "value_int": 1,
       "suit": "swords",
@@ -737,7 +737,7 @@
     },
     {
       "name": "Двойка Мечей",
-      "name_short": "sw02",
+      "name_short": "2_of_swords",
       "value": "two",
       "value_int": 2,
       "suit": "swords",
@@ -748,7 +748,7 @@
     },
     {
       "name": "Тройка Мечей",
-      "name_short": "sw03",
+      "name_short": "3_of_swords",
       "value": "three",
       "value_int": 3,
       "suit": "swords",
@@ -759,7 +759,7 @@
     },
     {
       "name": "Четвёрка Мечей",
-      "name_short": "sw04",
+      "name_short": "4_of_swords",
       "value": "four",
       "value_int": 4,
       "suit": "swords",
@@ -770,7 +770,7 @@
     },
     {
       "name": "Пятёрка Мечей",
-      "name_short": "sw05",
+      "name_short": "5_of_swords",
       "value": "five",
       "value_int": 5,
       "suit": "swords",
@@ -781,7 +781,7 @@
     },
     {
       "name": "Шестёрка Мечей",
-      "name_short": "sw06",
+      "name_short": "6_of_swords",
       "value": "six",
       "value_int": 6,
       "suit": "swords",
@@ -792,7 +792,7 @@
     },
     {
       "name": "Семёрка Мечей",
-      "name_short": "sw07",
+      "name_short": "7_of_swords",
       "value": "seven",
       "value_int": 7,
       "suit": "swords",
@@ -803,7 +803,7 @@
     },
     {
       "name": "Восьмёрка Мечей",
-      "name_short": "sw08",
+      "name_short": "8_of_swords",
       "value": "eight",
       "value_int": 8,
       "suit": "swords",
@@ -814,7 +814,7 @@
     },
     {
       "name": "Девятка Мечей",
-      "name_short": "sw09",
+      "name_short": "9_of_swords",
       "value": "nine",
       "value_int": 9,
       "suit": "swords",
@@ -825,7 +825,7 @@
     },
     {
       "name": "Десятка Мечей",
-      "name_short": "sw10",
+      "name_short": "10_of_swords",
       "value": "ten",
       "value_int": 10,
       "suit": "swords",
