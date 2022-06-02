@@ -4,6 +4,12 @@ const fs = require("fs");
 const path = require("path");
 const cloneDeep = require("lodash.clonedeep");
 const remove = require("lodash.remove");
+const helmet = require("helmet");
+const cors = require("cors");
+const morgan = require("morgan");
+
+const astrologer = require('./astrologer')
+const { zodiacSign } = require('./astrologer/utils')
 
 const app = express();
 const router = express.Router();
@@ -12,6 +18,45 @@ const root =
   process.env.NODE_ENV === "production"
     ? path.join(__dirname, "..")
     : __dirname;
+
+    app.set("trust proxy", "loopback");
+
+// cors
+app.use(cors());
+
+if (process.env.ENVIRONMENT !== "test") {
+  // logger
+  app.use(
+    morgan(
+      '[:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length]'
+    )
+  );
+}
+
+// helmet configurations
+app.use(helmet());
+
+app.use(helmet.referrerPolicy());
+
+app.use(
+  helmet.contentSecurityPolicy({
+    directives: {
+      defaultSrc: ["'self'"],
+    },
+  })
+);
+
+app.use(
+  helmet.featurePolicy({
+    features: {
+      fullscreen: ["'self'"],
+      vibrate: ["'none'"],
+      syncXhr: ["'none'"],
+    },
+  })
+);
+
+app.use(express.json());
 
 app.use(bodyParser.json());
 app.use("/static", express.static(path.join(root, "static")));
@@ -130,6 +175,26 @@ router.get("/cards/courts/:court", (req, res, next) => {
     .status(200);
 });
 
+router.get('/horoscope', async (req, res) => {
+  const date = new Date(req.query.time)
+  const { latitude, longitude } = req.query
+
+  const chart = astrologer.natalChart(date, latitude, longitude)
+
+  res.status(200).json({
+    data: chart
+  })
+})
+
+router.get('/moonSign', async (req, res) => {
+  const date = new Date(req.query.time)
+  const { latitude, longitude } = req.query
+
+  const sign = zodiacSign(longitude)
+
+  res.status(200).json(sign)
+})
+
 router.use(function (_req, _res, next) {
   var err = new Error("Not Found");
   err.status = 404;
@@ -145,3 +210,5 @@ var server = app.listen(process.env.PORT || 8080, function () {
   var port = server.address().port;
   console.log("RWS API Server now running on port", port);
 });
+
+module.exports = app;
